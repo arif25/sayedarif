@@ -1,0 +1,382 @@
+* { box-sizing: border-box; }
+.sec-main .container-fluid { padding: 0; }
+.leftmenu { width: 280px;
+    float: left;
+    background-color: rgb(255, 89, 89);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 9; }
+.sec-banner { float: left;
+    width: 100%;
+    padding: 0 0 0 280px; }
+.secaboutme, .sec-main { float: left; width: 100%;position: relative; }
+.bannerLeft { float: left; margin: 111px 20px 20px 50px; } 
+.bannerProfileBg { float: left; }
+.bannerProfileImage {float: right; margin: 7% 10% 0 0;
+    width: 400px; } 
+a.buttonBanner {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000; 
+    padding: 4px 16px 6px;
+    border-radius: 16px;
+    padding: 10px 30px;
+    font-size: 17px;
+    border-radius: 24px;
+    box-shadow: 0 8px 24px rgb(215 189 189 / 27%);
+    background: transparent; 
+}
+a.buttonBanner.active { 
+    background-color: #ff5959;
+    border-color: #ff5959;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 8px 24px rgb(255 89 89 / 27%);     
+    margin: 0 13px 0 0;
+}
+.bannerButtons {
+    float: left;
+    margin: 100px 0 00;
+}
+.menuProfileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto; border: 3px solid #fff;
+}
+.menuProfile {     
+    float: left;
+    text-align: center;
+    margin: 44px 0 10px;
+    width: 100%; }
+.menuProfile h3 {
+    text-align: center;
+    margin: 18px 0px 0;
+    font-weight: 700;
+    color: #fff;
+}
+.menuProfile p {
+    color: #fff;
+}
+.leftmenu .nav-pills .nav-link.active, .leftmenu .nav-pills .show>.nav-link {
+    background: none;
+}
+.menuProfileContent { float: left; width: 100%; }
+.bannerLeft {  color: #ff5959;
+    font-weight: 900;
+    font-size: 43px;}
+.leftmenu .nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: .25rem;
+    font-size: 19px; padding: 10px 1rem; color: #fff;
+}
+.leftmenu .nav-pills>li {
+    float: left;
+    width: 100%;
+}
+.leftmenu .d-flex.flex-column {
+    float: left;
+    width: 100%;
+}
+.bannerLeft h1 {
+    font-weight: 900;
+}
+.bannerLeft h3 {
+    color: #000;
+}
+.artAboutus { float: left; width: 100%; }
+.secAboutus h1 {
+    font-size: 44px;
+    font-weight: 800;
+    font-family: Poppins, Arial, Helvetica, sans-serif; margin: 0 0 25px;
+}
+.artAboutusContent {
+    float: left;
+    background: #fff;
+    box-shadow: 0px 4px 6px 5px #f8f8f8;
+    padding: 36px;
+    border-radius: 15px;
+    width: 100%;
+}
+.secAboutus { float: left; width: 100%;margin: 25px 0 0 0;padding: 0 0 56px 50px; }
+.artAboutusContent h3 {
+    margin: 0 0 16px;
+    font-weight: 700;
+}
+.bxProgress h4 {
+    font-size: 18px;
+    color: #6a6a6a;
+}
+.bxProgress {
+    float: left;
+    margin: 0 0 17px;
+    width: 100%;
+}
+.bxProgressContent {
+    float: left;
+    width: 100%; margin: 26px 0 0;
+}
+.bxProgressContentButton {
+    float: left;
+}
+.bxProgressContentemail {
+    float: left;
+    margin: 5px 0 0 7px;
+    font-size: 19px;
+}
+.bxAboutus { float: left; width: 60%; }
+.bxAboutRight { float: right; width: 40%; }
+.bxAboutList { float: left; width: 100%;margin: 58px 0 0; }
+.bxAboutList ul { float: left; width: 100%; padding: 0; margin: 0; }
+.bxAboutList ul li { 
+    list-style: none;
+    float: left;
+    padding: 19px; width: 50%;
+ }
+.bxAboutListInner { 
+    background: #fff;
+    padding: 35px 0;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center; min-height: 200px;
+    box-shadow: 0 0px 18px rgb(255 194 194 / 27%); }
+.bxAboutListInner h2 {
+    font-weight: 700;
+    color: #ff5959;
+    font-size: 37px;
+}
+.bxAboutHobbies {
+    float: left;
+    width: 87%;
+    background: #fff;
+    padding: 29px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0px 18px rgb(255 194 194 / 27%);
+    margin: 10px 10px 10px 24px;
+    text-align: left;
+}
+.bxAboutHobbies h2 {
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0 0 14px;
+}
+.bxAboutHobbies ul {
+    padding: 0 0 0 18px;
+}
+.bxAboutHobbies ul li {
+    float: left;
+    width: 100%;
+    color: #919191;
+    font-size: 17px;
+    margin: 0 0 9px;
+}
+.artAboutusContent li { list-style: none; }
+.specializedbx {     
+    float: left;
+    width: 100%; }
+.specializedbx ul { padding: 0; }
+.specializedbx ul li { 
+    list-style: none;
+    float: left;
+    width: 50%;
+    margin: 0 0 30px; text-align: left;
+}
+.specializedbx ul li .bxAboutListInner {
+    background: #fff;
+    padding: 35px 0 35px 30px;
+    border-radius: 15px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0px 18px rgb(255 194 194 / 27%);
+    text-align: left;
+}
+.bxSpecializationImage {
+    float: left;
+    width: 40%;
+}
+.yearEducation {
+    float: left;
+    width: 30%;
+}
+.degreeEducation { float: right; width: 65%; }
+.bxeducationOuter {     float: left;
+    background: #fff;
+    box-shadow: 0px 4px 6px 5px #f8f8f8;
+    padding: 36px;
+    border-radius: 15px; width: 100%; }
+.titleEducation {
+    margin: 0 0 30px;
+    float: left;
+    width: 100%;
+}
+.titleEducation h3 {
+    font-weight: 700;
+    font-size: 29px;
+}
+.yearEducation p {
+    color: #f00;
+}
+.bxEducation { float: left; width: 100%; margin: 0 0 15px; }
+.resumeLeft {
+    float: left;
+    width: 49%;
+}
+.resumeRight { float: right; width: 49%; }
+.bxeducationOuterLanguage { margin: 50px 0 0 0; }
+.bxEducation ul { padding: 0; }
+.bxEducation ul li { float: left; width: 33%; }
+.bxEducation ul li p { position: relative; font-weight: bold; display:initial; }
+.bxEducation ul li p sup {     
+    position: absolute;
+    right: -25px;
+    top: 1.5px;
+    color: #f00; 
+}
+.experienceHiremebutton {
+    float: left;
+    width: 100%;margin: 52px 0 0;
+}
+.experienceHiremebutton a {
+    background-color: #ff5959;
+    border-color: #ff5959;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 8px 24px rgb(255 89 89 / 27%);
+    margin: 0 13px 0 0;display: block;
+    text-decoration: none;
+    padding: 8px 0; 
+}
+.bxLatestWork { width: 100%; }
+/* ==========  Gallery   ======= */
+#exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+#exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+#exTab1 .nav-pills > li > a {
+    border-radius: 20px;
+    background: #cccccc47;
+    color: #000;
+    border: 2px solid #a1a1a1; margin: 0 8px 0 0;
+}
+.bxLatestWork li.active { margin: 0 8px 0 0; }
+
+.bxLatestWork .nav-pills>li.active>a, .bxLatestWork .nav-pills>li.active>a:hover, .bxLatestWork .nav-pills>li.active>a:focus {
+    color: #fff;
+    background: #000;
+    border-radius: 23px; 
+}
+#exTab1 .nav-pills > li.active > a {
+    color: #fff;background: #000;
+}
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+}
+#exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+}
+.secaboutme p a {
+    color: #fff;
+}
+.bxwebsite {
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 15px 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    margin: 5px;
+}
+.nav.nav-pills {
+    float: left;
+    width: 100%;
+    margin: 0 0 11px;
+}   
+.bxLatestWork .tab-content.clearfix {
+    float: left;
+    width: 100%;
+}
+.bxcontactme { float: left;
+    background: #fff;
+    box-shadow: 0px 4px 6px 5px #f8f8f8;
+    border-radius: 15px; overflow: hidden;
+    width: 100%; }
+.contactmeLeft { float: left; width: 60%;padding: 66px 76px 7px 76px; }
+.contactmeRight { float: right; width: 40%;padding: 76px;background: #f00;text-align: center;
+    color: #fff; }
+.contactmeRight h2 {
+    color: #fff;
+    font-weight: 900;
+}
+.bxcontactme p {
+    font-size: 30px;
+    font-weight: 900;
+}
+footer {
+    float: left;
+    width: 100%;padding: 50px 50px;
+}
+.footerDownloadcv {
+    font-size: 18px;
+    float: left;
+}
+.footerDownloadcv p {
+    float: left;
+}
+.buttoncvdownload { float: left; margin: 0 0 0 12px; }
+.footercopyright { float: right; }
+.buttoncvdownload a {
+    text-decoration: none;
+    background: #595959;
+    color: #fff; 
+    padding: 11px 22px;
+    border-radius: 20px; box-shadow: 0 8px 24px rgb(40 40 40 / 27%);
+}
+.buttoncvdownload a:hover {
+    text-decoration: none;
+    background: #f00; color: #fff;box-shadow: 2px 12px 15px rgb(40 40 40 / 27%);
+}
+.footercopyright p {
+    font-size: 16px;
+    color: #9b9b9b;
+    font-weight: 300;
+}
+.bxAboutListInner h2 {
+    font-weight: 700;
+    color: #ff5959;
+    font-size: 37px;
+    margin: 0 0 9px;
+    font-size: 24px;
+}
+.bxAboutListInner p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
